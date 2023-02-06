@@ -1,0 +1,110 @@
+@import "reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    outline: 0;
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    min-height: 100%;
+    min-width: 100%;
+    font-family: "Open Sans", sans-serif;
+    color: black;
+}
+
+.wrapper {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: auto;
+    width: 100%;
+}
+
+.main-content {
+    width: 100%;
+    height: auto;
+}
+
+.typepage {
+    width: 100%;
+    height: auto;
+    padding-top: 50px;
+    /*margin-bottom: 30px;*/
+    font-size: 15px;
+    line-height: 21.12857144px;
+}
+
+.container {
+    height: auto;
+    width: 100%;
+
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.ratings {
+    padding: 60px 0;
+}
+
+.section-title {
+    padding-bottom: 40px;
+}
+
+.section-title h2 {
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0;
+    line-height: 1px;
+    margin: 0 0 5px 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #aaaaaa;
+    font-family: "Poppins", sans-serif;
+}
+
+.section-title h2::after {
+    content: "";
+    width: 120px;
+    height: 1px;
+    display: inline-block;
+    background: #fd9042;
+    margin: 4px 10px;
+}
+
+.section-title p {
+    margin: 0;
+    margin: 0;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    color: #2a2c39;
+}
+
+.section-description p {
+    font-weight: 600;
+}
+
+.card-container {
+    text-align: center;
+    width: 300px;
+}
+
+.rate-card {
+    position: relative;
+    width: 300px;
+    height: 300px;
+
+
+    border: 2px solid black;
+}
+
+.card {
+    border: 1.5px solid black !important;
+}
+
