@@ -43,7 +43,7 @@
         width: 50px;
     }
 
-    .fs-rate {
+    .card p {
         font-size: 1em;
     }
 }
@@ -68,7 +68,7 @@
         width: 50px;
     }
 
-    .fs-rate {
+    .card p {
         font-size: 1.2em;
     }
 
