@@ -120,9 +120,13 @@ html, body{
 .card p {
     font-size: 1.2em;
     font-weight: 500;
+    margin-bottom: 0;
 }
 
 .card a {
     font-size: 1.1em;
 }
 
+.card-body {
+    padding: 3rem 3rem !important;
+}

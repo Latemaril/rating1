@@ -81,7 +81,7 @@
 
     .card {
         width: 420px;
-        height: 420px;
+        height: 380px;
     }
 
     .card h1 {
@@ -92,5 +92,10 @@
         height: 60px;
         width: 60px;
     }
+
+    .text-list {
+        font-size: 0.9em;
+    }
+
 }
 
