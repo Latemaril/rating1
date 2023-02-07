@@ -88,17 +88,16 @@ html, body{
 
 .section-description p {
     font-weight: 600;
+    font-size: 20px;
 }
 
 .card-container {
     text-align: center;
-    width: 300px;
+    width: 400px;
 }
 
 .rate-card {
     position: relative;
-    width: 300px;
-    height: 300px;
 
 
     border: 2px solid black;
@@ -106,6 +105,12 @@ html, body{
 
 .card {
     border: 1.5px solid black !important;
+    width: 420px;
+    height: 420px;
+}
+
+.card h1 {
+    font-size: 60px;
 }
 
 .rate-text_orange {
