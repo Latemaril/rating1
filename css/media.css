@@ -47,6 +47,10 @@
         gap: 0;
     }
 
+    .justify {
+        justify-content: center;
+    }
+
 }
 
 @media (min-width: 992px) {
@@ -70,6 +74,10 @@
 
     .card-gap {
         gap: 20px;
+    }
+
+    .justify {
+        justify-content: space-between;
     }
 }
 

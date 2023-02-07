@@ -139,3 +139,7 @@ html, body{
 .card-gap {
     gap: 20px;
 }
+
+.justify {
+    justify-content: space-between;
+}
