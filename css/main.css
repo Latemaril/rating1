@@ -135,3 +135,7 @@ html, body{
 .card-body {
     padding: 3rem 3rem !important;
 }
+
+.card-gap {
+    gap: 20px;
+}

@@ -43,6 +43,10 @@
         font-size: 1em;
     }
 
+    .card-gap {
+        gap: 0;
+    }
+
 }
 
 @media (min-width: 992px) {
@@ -62,6 +66,10 @@
 
     .card p {
         font-size: 0.8em;
+    }
+
+    .card-gap {
+        gap: 20px;
     }
 }
 
