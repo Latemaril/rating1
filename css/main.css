@@ -104,7 +104,7 @@ html, body{
 }
 
 .card {
-    border: 1.5px solid black !important;
+    border: 3px solid black !important;
     width: 430px;
     height: 430px;
 }
@@ -119,5 +119,9 @@ html, body{
 
 .fs-rate {
     font-size: 1.2em;
+}
+
+.card p {
+    font-weight: 600;
 }
 
