@@ -61,7 +61,7 @@
     }
 
     .card p {
-        font-size: 1em;
+        font-size: 0.8em;
     }
 }
 
@@ -72,12 +72,12 @@
     }
 
     .card {
-        width: 397px;
+        width: 360px;
         height: 360px;
     }
 
     .card h1 {
-        font-size: 40px;
+        font-size: 45px;
     }
 
     .card svg {
@@ -86,7 +86,7 @@
     }
 
     .card p {
-        font-size: 1.2em;
+        font-size: 1.1em;
     }
 
 }
@@ -110,8 +110,8 @@
         width: 60px;
     }
 
-    .text-list {
-        font-size: 0.9em;
+    .card p {
+        font-size: 1.2em;
     }
 
 }
