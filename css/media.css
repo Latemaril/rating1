@@ -105,6 +105,10 @@
         font-size: 1.1em;
     }
 
+    .justify {
+        justify-content: space-between;
+    }
+
 }
 
 @media (min-width: 1400px){
@@ -128,6 +132,10 @@
 
     .card p {
         font-size: 1.2em;
+    }
+
+    .justify {
+        justify-content: space-between;
     }
 
 }
