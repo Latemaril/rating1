@@ -48,9 +48,9 @@
     }
 
     .justify {
-        justify-content: center;
+        justify-content: space-between;
     }
-
+    
 }
 
 @media (min-width: 992px) {
