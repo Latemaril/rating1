@@ -85,6 +85,14 @@ html, body{
     color: #2a2c39;
 }
 
+.rate-container a {
+    color: black;
+}
+
+.rate-container a:hover {
+    color: #fd9042;
+}
+
 .section-description {
     padding-bottom: 10px;
 }
@@ -94,13 +102,6 @@ html, body{
     font-size: 25px;
 
     cursor: pointer;
-
-    -webkit-transition: all 0.5s ease;
-    transition: all 0.5s ease;
-}
-
-.section-description a:hover {
-    color: #5265f6;
 }
 
 .section-description a{
@@ -125,12 +126,11 @@ html, body{
     height: 380px;
     box-shadow: 0px 0px 30px rgb(127 137 161 / 25%);
     transition: all ease 0.5s;
-    /*transition: box-shadow 0.5s;*/
 }
 
 .card:hover {
     transform: translateY(-5px);
-    box-shadow: 0px 0px 60px rgb(127 137 161 / 35%);
+    box-shadow: 0px 0px 60px rgba(146, 183, 255, 0.35);
 }
 
 .card h1 {
@@ -138,7 +138,7 @@ html, body{
 }
 
 .rate-text_orange {
-    color: #fd9042;
+    color: rgba(23, 95, 169, 0.9);
 }
 
 .card p {
