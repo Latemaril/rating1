@@ -148,6 +148,10 @@ html, body{
     font-size: 1.1em;
 }
 
+.card path {
+    transition: all ease 0.5s;
+}
+
 .card:hover path{
     fill: #fd9042;
 }
