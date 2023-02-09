@@ -152,9 +152,9 @@ html, body{
     transition: all ease 0.5s;
 }
 
-.card:hover path{
-    fill: #fd9042;
-}
+/*.card:hover path{*/
+/*    fill: #fd9042;*/
+/*}*/
 
 .card-body {
     padding: 3rem 3rem !important;
