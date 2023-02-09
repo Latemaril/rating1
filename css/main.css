@@ -135,9 +135,6 @@ html, body{
 
 .card h1 {
     font-size: 60px;
-}
-
-.rate-text_orange {
     color: rgba(23, 95, 169, 0.9);
 }
 
@@ -149,6 +146,10 @@ html, body{
 
 .card a {
     font-size: 1.1em;
+}
+
+.card:hover path{
+    fill: #fd9042;
 }
 
 .card-body {
