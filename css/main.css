@@ -1,6 +1,11 @@
 @import "reset.css";
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
 
+@font-face {
+    font-family: 'VVSU'; /*a name to be used later*/
+    src: url(/fonts/vvsu.cdr); /*URL to font*/
+}
+
 *{
     box-sizing: border-box;
     outline: 0;
@@ -125,10 +130,13 @@ html, body{
     width: 420px;
     height: 380px;
     box-shadow: 0px 0px 30px rgb(127 137 161 / 25%);
+}
+
+.card.active {
     transition: all ease 0.5s;
 }
 
-.card:hover {
+.card.active:hover {
     transform: translateY(-5px);
     box-shadow: 0px 0px 60px rgba(146, 183, 255, 0.35);
 }
@@ -166,4 +174,12 @@ html, body{
 
 .justify {
     justify-content: space-between;
+}
+
+.vvsu {
+    font-family: "VVSU";
+    font-size: 100px !important;
+
+    color: #e8e8e8 !important;
+    cursor: default;
 }
