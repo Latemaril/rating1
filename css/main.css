@@ -184,3 +184,14 @@ html, body{
     color: #e8e8e8 !important;
     cursor: default;
 }
+
+.card.inactive svg {
+    width: 300px;
+    height: 300px;
+}
+
+.st1 {
+    fill-rule: evenodd;
+    clip-rule: evenodd;
+    fill: rgba(23, 95, 169);
+}
