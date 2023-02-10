@@ -20,27 +20,6 @@ html, body{
     color: black;
 }
 
-.wrapper {
-    margin-top: 50px;
-    margin-bottom: 50px;
-    height: auto;
-    width: 100%;
-}
-
-.main-content {
-    width: 100%;
-    height: auto;
-}
-
-.typepage {
-    width: 100%;
-    height: auto;
-    padding-top: 50px;
-    /*margin-bottom: 30px;*/
-    font-size: 15px;
-    line-height: 21.12857144px;
-}
-
 .container {
     height: auto;
     width: 100%;
