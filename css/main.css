@@ -61,7 +61,6 @@ html, body{
 
 .section-title p {
     margin: 0;
-    margin: 0;
     font-size: 36px;
     font-weight: 700;
     text-transform: uppercase;
@@ -108,7 +107,7 @@ html, body{
     border: none !important;
     width: 420px;
     height: 380px;
-    box-shadow: 0px 0px 30px rgb(127 137 161 / 25%);
+    box-shadow: 0 0 30px rgb(127 137 161 / 25%);
 }
 
 .card.active {
@@ -117,12 +116,12 @@ html, body{
 
 .card.active:hover {
     transform: translateY(-5px);
-    box-shadow: 0px 0px 60px rgba(146, 183, 255, 0.35);
+    box-shadow: 0 0 60px rgba(146, 183, 255, 0.35);
 }
 
 .card h1 {
-    font-size: 60px;
     color: rgba(23, 95, 169);
+    font-size: 60px;
 }
 
 .card p {
@@ -138,10 +137,6 @@ html, body{
 .card path {
     transition: all ease 0.5s;
 }
-
-/*.card:hover path{*/
-/*    fill: #fd9042;*/
-/*}*/
 
 .card-body {
     padding: 3rem 3rem !important;
