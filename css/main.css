@@ -110,6 +110,10 @@ html, body{
     box-shadow: 0 0 30px rgb(127 137 161 / 25%);
 }
 
+.card.active path {
+    fill: rgb(6, 115, 222);
+}
+
 .card.active {
     transition: all ease 0.5s;
 }
@@ -120,7 +124,7 @@ html, body{
 }
 
 .card h1 {
-    color: rgba(23, 95, 169);
+    color: rgb(6, 115, 222);
     font-size: 60px;
 }
 
